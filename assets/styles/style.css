@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@515&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.jumbotron {
+    font-size: 20px;
+   padding: 60px;
+   text-align: center;
+   color: black;
+   background-image: url('../../assets/image/1book.jpg'); 
+   background-attachment: fixed;
+   background-size: cover;
+   background-position:0px;
+   overflow: hidden;
+}
+
+nav {
+    background-color: #000000;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: inline;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+#content {
+    float: left;
+    width: 75%;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+
+.card {
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    flex-basis: 30%;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #000000;
+}
+
+h3 {
+    color: #000000;
+}
+
+#content {
+    padding: 10px 50px;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.featured-image {
+    flex-basis: 30%;
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile header {
+    text-align: center;
+}
+
+.profile img {
+    width: 200px;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #000000;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+
+    img {
+    flex-basis: 30%;
+     width: 200px;
+     height: 160px;
+     padding: 10px;
+     margin: 20px;
+}
+
+#news {
+    text-align: center;
+    flex-basis: 70%;
+    float: left
+    margin: 10px
+    padding: 0 20px;
+}
+
+.flex-row {
+        display: inherit;
+    }
+
+
+    .card2 {
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    flex-basis: 30%;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
